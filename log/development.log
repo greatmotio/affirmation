@@ -19680,3 +19680,15 @@ Processing by UsersController#show as HTML
 Completed 200 OK in 491ms (Views: 458.2ms | ActiveRecord: 2.5ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-07-21 14:48:31 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/motio/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/partial/_navbar.html.erb:7
+  Rendered partial/_navbar.html.erb (17.4ms)
+  Rendered pages/index.html.erb within layouts/application (278.3ms)
+Completed 200 OK in 398ms (Views: 388.9ms | ActiveRecord: 0.9ms)
+
+
