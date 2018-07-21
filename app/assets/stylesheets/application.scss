@@ -52,12 +52,14 @@ body{
   color: #222;
   background-color: #f1f1f1;
   margin: 0 auto;
+  height: 100%;
 }
 
 .container {
   width: 360px;
   margin: 0 auto;
   text-align: center;
+  heght: 100%;
 }
 
 #wrapper {
@@ -118,8 +120,7 @@ ul.affirm-menu {
 }
 
 li.inline {
-  display: inline;
-  margin-right: 20px;
+  
 }
 
 ul.affirmbody {
@@ -145,6 +146,7 @@ footer {
   color: #ffffff;
   padding-top: 15px;
   text-align: center;
+  margin-top: auto;
 
   li {
     style: none;
