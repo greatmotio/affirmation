@@ -9207,3 +9207,9 @@ ul.add-list {
 ul.add-list li {
   margin-top: 5px;
 }
+
+/* line 216, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+ol.howto li {
+  text-align: left;
+  margin-bottom: 15px;
+}
