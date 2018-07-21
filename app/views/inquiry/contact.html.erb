@@ -1,0 +1,30 @@
+<%= render 'partial/navbar' %>
+
+<div class="container">
+  <div class="row text-center justify-content-center">
+    <div class="col-md-6 col-md-offset-3 text-center">
+      <h2>意見・要望・成功事例を送る</h2>
+      <ul class="contact">
+        <li>お名前とメールアドレスは入力しなくても構いません</li>
+        <li>機能追加や改善要望などをいただける場合はメールアドレスを入力していただけると、詳細をお伺いするためにメールにて返信することができます。</li>
+        <li>当サービスを利用しての成功事例を送っていただけると他の利用者の励みにもなりますので、どんどん送ってください。</li>
+      </ul>
+      <form action="https://formspree.io/greatmotio@gmail.com" method="POST">
+        <div class="form-group">
+        <!--  <label for="name">Name</label> -->
+          <input type="text" class="form-control" name="name" id="name" placeholder="お名前（ニックネーム）">
+        </div>
+        <div class="form-group">
+        <!--  <label for="email">Email Address</label> -->
+          <input type="email" class="form-control" name="email" id="email" placeholder="メールアドレス">
+        </div>
+        <div class="form-group">
+        <!--    <label for="message">Message</label> -->
+          <textarea name="message" cols="40" rows="10" class="form-control" id="message" placeholder="Message"></textarea>
+        </div>
+      <button type="submit" class="btn btn-primary contact-btn">送信</button>
+      </form>
+    </div>
+  </div>   
+</div>
+

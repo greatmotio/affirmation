@@ -1,0 +1,65 @@
+<%= render 'partial/navbar' %>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 text-center">
+			<h2>人生を変える〜アファメーション〜</h2>
+
+			<p class="mongon">言葉があなたの人生を創る。<br>アファメーションであなたの夢が現実になる。
+			人生を変えるお手伝いをします。</p>
+
+			<h2>アファメーションとは</h2>
+
+			<p class="mongon">アファメーションとは経営者やスポーツ選手、俳優や女優など世界中の成功者が使う技術です。
+
+			「言葉」を使って自分の潜在意識、潜在能力の力を最大限に引き出して、あなた自身をはじめとしてあなたの取り巻く世界全体を良いものにする手助けをするものです。
+			</p>
+
+			<%= image_tag 'dream.png' %>
+
+			<ul class="top-list">
+				<% if !user_signed_in? %>
+					<li>
+						<%= link_to 'ログイン', new_user_session_path, class: 'button' %>
+					</li>
+
+					<li>
+						<%= link_to '登録がお済みでない方はこちら', new_user_registration_path %>
+					</li>
+
+					<hr style="background-color:#337ab7;">
+
+					<li>
+						<%= link_to 'アファメーションとは', '#' %>
+					</li>
+
+					<li>
+						<%= link_to '当サイトの使い方', '#' %>
+					</li>
+
+					<li>
+						<%= link_to 'アファメーションの作り方', '#' %>
+					</li>
+
+				<% else %>
+
+					<hr style="background-color:#337ab7;">
+
+					<li>
+						<%= link_to 'アファメーションとは', '#' %>
+					</li>
+
+					<li>
+						<%= link_to '当サイトの使い方', '#' %>
+					</li>
+
+					<li>
+						<%= link_to 'アファメーションの作り方', '#' %>
+					</li>
+				<% end %>
+			</ul>
+			
+		</div>
+	</div>
+</div>
+

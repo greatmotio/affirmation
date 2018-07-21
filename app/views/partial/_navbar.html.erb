@@ -1,0 +1,16 @@
+<div class="navigation">
+  <div class="logo">
+    <%= link_to 'Affirmlove', '/' %>
+  </div>
+
+  <ul class="navbar">
+    <% if !user_signed_in? %>
+      <li><%= link_to 'アカウント作成', new_user_registration_path %></li>
+      <li><%= link_to 'ログイン', new_user_session_path %></li>
+    <% else %>
+      <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete %></li>
+      <li><%= link_to 'アファメーションの設定', post_path(current_user) %></li>
+    <% end %>
+  </ul>
+
+</div>

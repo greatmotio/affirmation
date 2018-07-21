@@ -1,0 +1,50 @@
+
+<script type='text/javascript'>
+	$(function(){
+
+		$(window).on('load',function(){
+            animation();
+               setTimeout(function(){
+                window.location.href = "http://localhost:3000/users/<%= current_user.id %>";
+            },10000);
+        });
+		function animation(){
+			$( '.case-transform' ).addClass( 'by-transform1' ).on( 'animationend', function(){
+				$( '.case-transform' ).addClass( 'by-transform2' ).removeClass( 'by-transform1' ).on( 'animationend', function(){
+					$( '.case-transform' ).removeClass( 'by-transform2' );
+					animation();
+				});
+			});
+		}
+
+	});
+</script>
+
+<style>
+	body {
+		background-color: #1A6315;
+	}
+
+	p {
+		font-size: 18px;
+		color: #ffffff;
+	}
+</style>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 text-center">
+			<div class="Codetank-20170108 Codetank__source">
+				<div class="case-transform moving-box-lo">
+					<div class="moving-box-lo__mod"></div>
+				</div>
+			</div>
+
+			<p>あなたは目標を達成する！</p>
+			<p>あなたは無限の潜在能力を使っている！</p>
+			<p>あなたは毎日どんどん豊かになっている！</p>	
+
+			<%= link_to 'affirmation', user_path(current_user) %>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,49 @@
+<%= render 'partial/navbar' %>
+
+
+<style>
+.space {
+		font-size: 14px;
+		padding-top: 60px;
+		text-align: left;
+		display:inline-block;
+		/*text-shadow: 1px 1px 0 #ffffff,
+             		-1px 1px 0 #ffffff,
+             		1px -1px 0 #ffffff,
+             		-1px -1px 0 #ffffff;*/
+	}
+</style>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 text-center">
+
+			<h2>
+				Your Affirmation
+			</h2>
+			<ul class="affirm-menu">
+				<li class="inline"><%= link_to 'アファメーション追加', new_post_path %></li>
+				<li class="inline"><a href = "http://localhost:3000/pages/show">アファメーション実行</a></li>
+			</ul>
+
+			<ul class="affirmbody">
+				<% @posts.each do |post| %>
+					<li class="space"><%= simple_format post.content %></li>
+					<li>
+						<% if post.image? %>
+							<%= image_tag post.image.url %>
+						<% end %>
+					</li>
+					<%= link_to '[編集]', edit_post_path(post) %>
+						<%= link_to '[削除]', post_path(post), method: :delete, data: {confirm: '削除してよろしいですか？'} %>
+					<% end %>
+			</ul>
+
+			<p>
+				<input type="button" onclick="location.href='http://affirmlove.herokuapp.com/pages/show'"value="アファメーションに進む">
+			</p>
+		</div>
+	</div>
+</div>
+
+<!-- これだとURLは合っているのにNoRouteエラーが出る -->
