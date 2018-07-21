@@ -9019,90 +9019,44 @@ html {
   color: #ffffff;
 }
 
-/*jumbotron*/
-/* line 55, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
-.jumbotron {
-  padding-top: 0;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #ecf0f1;
-}
-
-/* line 62, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
-.jumbotron h1,
-.jumbotron .h1 {
-  color: inherit;
-}
-
-/* line 66, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
-.jumbotron p {
-  margin-bottom: 15px;
-  font-size: 24px;
-  font-weight: 200;
-}
-
-/* line 71, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
-.jumbotron > hr {
-  border-top-color: #cfd9db;
-}
-
-/* line 74, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
-.container .jumbotron, .container-fluid .jumbotron {
-  border-radius: 4px;
-}
-
-/* line 77, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
-.jumbotron .container {
-  max-width: 100%;
-}
-
-@media screen and (min-width: 768px) {
-  /* line 81, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
-  .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-
-  /* line 85, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
-  .container .jumbotron, .container-fluid .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
-  /* line 89, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
-  .jumbotron h1,
-  .jumbotron .h1 {
-    font-size: 72px;
-  }
-}
-/* line 95, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 52, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 body {
   color: #222;
   background-color: #f1f1f1;
+  width: 640px;
+  margin: 0 auto;
 }
 
-/* line 100, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 59, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+.container {
+  width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 65, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 #wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* line 106, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 71, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 h2 {
+  color: red;
   font-size: 16px;
   padding-bottom: 10px;
   margin-bottom: 15px;
   border-bottom: 1px solid #ddd;
+  text-align: center;
 }
 
-/* line 113, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 80, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .mongon {
   text-align: left;
 }
 
-/* line 117, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 84, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .button {
   display: inline-block;
   width: 200px;
@@ -9117,61 +9071,61 @@ h2 {
   opacity: 0.9;
 }
 
-/* line 131, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 98, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .button:hover {
   opacity: 1.0;
   color: #ffffff;
 }
 
-/* line 136, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 103, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .top-list li {
   list-style: none;
   padding-bottom: 10px;
 }
 
-/* line 141, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 108, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .header-menu {
   font-size: 14px;
   font-weight: normal;
   float: right;
 }
 
-/* line 147, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 114, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 ul.affirm-menu {
   margin-bottom: 20px;
 }
-/* line 150, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 117, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 ul.affirm-menu li {
   text-decoration: underline;
 }
 
-/* line 155, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 122, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 li.inline {
   display: inline;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
-/* line 160, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 127, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 ul.affirmbody {
   padding-bottom: 30px;
 }
 
-/* line 164, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 131, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 ul.affirmbody li {
   list-style: none;
 }
 
-/* line 168, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 135, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .image {
   margin: 0 auto;
 }
 
-/* line 172, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 139, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .submit {
   padding-bottom: 20px;
 }
 
-/* line 177, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 144, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 footer {
   height: 50px;
   background-color: #337ab7;
@@ -9180,24 +9134,24 @@ footer {
   padding-top: 15px;
   margin-top: auto;
 }
-/* line 185, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 152, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 footer li {
   style: none;
   display: inline;
   text-decoration: underline;
   margin-left: 30px;
 }
-/* line 190, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 157, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 footer li .link-style {
   color: #fff;
 }
 
-/* line 196, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 163, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .goal {
   font-size: 20px;
 }
 
-/* line 200, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 167, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .back {
   font-size: 18px;
   color: #fff;
@@ -9205,51 +9159,51 @@ footer li .link-style {
   text-decoration: underline;
 }
 
-/* line 207, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 174, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .box {
   height: 30px;
 }
 
-/* line 211, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 178, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 ul.contact {
   text-align: left;
 }
-/* line 214, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 181, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 ul.contact li {
   margin-top: 10px;
 }
-/* line 218, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 185, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 ul.contact li:last-child {
   margin-bottom: 20px;
 }
 
-/* line 223, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 190, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .contact-btn {
   margin-bottom: 30px;
 }
 
-/* line 227, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 194, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .kaizen {
   text-align: left;
   margin-bottom: 20px;
 }
 
-/* line 232, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 199, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .youbou {
   padding-bottom: 30px;
 }
 
-/* line 236, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 203, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 .box {
   margin-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
 
-/* line 241, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 208, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 ul.add-list {
   text-align: left;
 }
-/* line 244, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
+/* line 211, /Users/motio/Desktop/myapp/affirmlove/app/assets/stylesheets/application.scss */
 ul.add-list li {
   margin-top: 5px;
 }
