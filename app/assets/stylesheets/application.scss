@@ -48,52 +48,17 @@ html {
 }
  
 
-
-/*jumbotron*/
-
-.jumbotron {
-  padding-top: 0;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #ecf0f1;
-}
-.jumbotron h1,
-.jumbotron .h1 {
-  color: inherit;
-}
-.jumbotron p {
-  margin-bottom: 15px;
-  font-size: 24px;
-  font-weight: 200;
-}
-.jumbotron > hr {
-  border-top-color: #cfd9db;
-}
-.container .jumbotron, .container-fluid .jumbotron {
-  border-radius: 4px;
-}
-.jumbotron .container {
-  max-width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-  .container .jumbotron, .container-fluid .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  .jumbotron h1,
-  .jumbotron .h1 {
-    font-size: 72px;
-  }
-}
-
 body{
   color: #222;
   background-color: #f1f1f1;
+  width: 640px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 640px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #wrapper {
@@ -107,6 +72,7 @@ h2 {
   padding-bottom: 10px;
   margin-bottom: 15px;
   border-bottom: 1px solid #ddd;
+  text-align: center;
 }
 
 .mongon {
@@ -153,7 +119,7 @@ ul.affirm-menu {
 
 li.inline {
   display: inline;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 ul.affirmbody {
