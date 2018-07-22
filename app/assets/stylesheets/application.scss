@@ -69,7 +69,7 @@ body{
 }
 
 h2 {
-  color: orange;
+  color: #034F1F;
   font-size: 16px;
   padding-bottom: 10px;
   margin-bottom: 15px;
@@ -137,6 +137,13 @@ ul.affirmbody li {
 
 .submit {
   padding-bottom: 20px;
+}
+
+.subcon li {
+  list-style: none;
+  color: #227C48;
+  text-align: left;
+  margin: 0 auto;
 }
 
 
@@ -215,4 +222,12 @@ ul.add-list {
 ol.howto li{
   text-align: left;
   margin-bottom: 15px;
+}
+
+.sankou p {
+  text-align: left;
+}
+
+.message p {
+  text-align: left;
 }
