@@ -14,6 +14,7 @@ gem 'piet'
 gem 'rmagick'
 gem 'mini_magick'
 gem 'config'
+gem 'omniauth-twitter'
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
